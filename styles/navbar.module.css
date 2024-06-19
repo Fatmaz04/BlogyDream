@@ -1,0 +1,50 @@
+.NavUl {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .NavLi {
+    float: left;
+  }
+  
+  .NavLi a {
+    display: block;
+    /* color: rgb(255, 255, 255); */
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .NavLi a:hover {
+    background-color: #7a7a7a;
+  }
+
+.hide{
+  display: none;
+}
+.img{
+  margin-top: 50px;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 1rem;
+  background-color: transparent;
+  transition: background-color 0.3s ease;
+  z-index: 1000;
+}
+
+.navbarScrolled {
+  background-color: var(--navbar); /* Change to your desired background color */
+   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow when scrolled */
+} 

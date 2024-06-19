@@ -1,0 +1,32 @@
+{
+  "blogs": [
+    {
+      "id": "1",
+      "blogger": "John Doe",
+      "header": "First Blog Post",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tincidunt, erat vel interdum vestibulum, augue tellus lobortis ex, in gravida neque ligula eu orci. Nulla consequat, odio nec congue rhoncus, metus ex sodales metus, vitae bibendum orci tellus eget libero. Vestibulum vulputate enim sit amet metus condimentum consectetur. Duis interdum, orci nec egestas eleifend, sapien elit fermentum augue, in lacinia augue odio eget sapien. Nulla facilisi. Nulla auctor, felis sed feugiat scelerisque, turpis nisl vestibulum eros, ac commodo nisi metus ut eros. Sed ultrices, libero et interdum sagittis, lorem lorem pellentesque lectus, quis condimentum eros tortor eu nisi. Quisque at magna at lorem ullamcorper bibendum. Quisque ac tellus sit amet justo malesuada scelerisque. Fusce scelerisque sapien vel augue efficitur, sed convallis lorem lobortis. Cras a risus nec metus lacinia dignissim. Integer euismod lectus sit amet dui lacinia, sit amet interdum mi volutpat.",
+      "date": "2024-06-20"
+    },
+    {
+      "id": "2",
+      "blogger": "Jane Smith",
+      "header": "Second Blog Post",
+      "body": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam laoreet sit amet leo non posuere. Nulla sed orci lobortis, sagittis diam ut, convallis orci. In id leo eu augue pharetra scelerisque. Nullam vel tincidunt libero. Suspendisse potenti. Nullam et vehicula lorem. Duis eu nunc magna. Vestibulum tincidunt nisi ut velit gravida, nec viverra ante aliquet. Integer eget nunc id nulla tincidunt lacinia. Aenean eu urna vel erat ultricies interdum nec eget lorem. Etiam bibendum, lectus et vestibulum auctor, dolor magna aliquam leo, nec luctus purus ipsum nec felis. Fusce id justo malesuada, viverra orci non, placerat leo.",
+      "date": "2024-06-21"
+    },
+    {
+      "id": "3",
+      "blogger": "Michael Brown",
+      "header": "Third Blog Post",
+      "body": "Curabitur eget placerat metus. Nunc ornare, ligula in consectetur feugiat, eros purus tincidunt est, vel convallis ligula lacus non arcu. Ut tempus orci nec arcu volutpat, id consequat enim venenatis. Suspendisse potenti. Aliquam nec mollis orci. Nullam consectetur a lectus nec efficitur. Mauris sit amet nisi vitae sem laoreet scelerisque vel ut dui. Proin euismod ex vel neque auctor tincidunt. Sed vitae nulla at lectus dignissim vestibulum. Aenean nec velit in velit viverra egestas. Donec id dui vitae libero pellentesque laoreet at eget tortor. Aenean nec fringilla magna. Nam vel est et urna fermentum sollicitudin. Nam eu ipsum in nulla pretium eleifend vel vel quam.",
+      "date": "2024-06-22"
+    },
+    {
+      "id": "0c0e",
+      "blogger": "Fatma",
+      "header": "Morning",
+      "body": "In the quiet solitude of the early morning, before the sun breaks over the horizon, there exists a serene beauty that envelopes the world. The stillness of the air is interrupted only by the gentle rustling of leaves in the breeze. Birds begin to stir, their melodic songs echoing through the crisp air. It is a time when thoughts drift like wisps of smoke, weaving through the tapestry of memories and dreams. Each moment holds a promise of new beginnings, a canvas waiting to be painted with the colors of life's experiences. In this tranquil interlude, one finds solace and reflection, a fleeting glimpse into the essence of existence itself.",
+      "date": "2024-06-19"
+    }
+  ]
+}

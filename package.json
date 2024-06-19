@@ -1,0 +1,24 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "next build",
+    "dev": "next dev",
+    "start": "next start",
+    "server": "json-server --watch db.json --port 5000"
+  },
+  "dependencies": {
+    "framer-motion": "^11.2.11",
+    "json-server": "^1.0.0-beta.1",
+    "next": "latest",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "@types/node": "20.14.5",
+    "@types/react": "18.3.3",
+    "typescript": "5.4.5"
+  }
+}

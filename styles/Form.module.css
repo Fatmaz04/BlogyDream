@@ -1,0 +1,35 @@
+.container {
+    padding: 0 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+  }
+
+.submitBtn{
+    background-color: black;
+    color: white;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.submitBtn:hover{
+    background-color: white;
+    color: black;
+}
+
+.InputField{
+    margin: 5px;
+    padding: 5px;
+    border: 0px;
+    border-radius: 3px;
+    box-shadow: 2px 8px 16px 0 rgba(70, 70, 70, 0.4);
+    width: 450px;
+}
+
+.field
+{
+    margin: 18px;
+}

@@ -1,0 +1,33 @@
+/*
+ * Dark mode theme 
+ */
+ :root[data-theme='dark'] {
+	--primary-bright:	#ffffff;
+	--primary:		#d9d9d9;
+	--primary-dim:		#666666;
+	--primary-dark:		#202020;
+	--secondary: 		#ffed7f;
+	--secondary-bright: 	#ffea5f;
+	--background: 		#060708;
+	--navbar: 		#807741;
+    --date:     rgb(146, 146, 146);
+
+	
+	/* Asks browser to behave in dark mode */
+	color-scheme: dark;
+} 
+
+/*
+ * Light mode theme 
+ */
+:root[data-theme='light'] {
+	--primary-bright:	#000000;
+	--primary: 		#060708;
+	--primary-dim:		#121315;
+	--primary-dark:		#efefef;
+	--secondary: 		#BA6655;
+	--secondary-bright:	#ff3636;
+	--background: 		#ededed;
+	--navbar: 		#d2b0aa;
+    --date:     rgb(87, 87, 87);
+}

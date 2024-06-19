@@ -1,0 +1,98 @@
+/* components/Layout.module.css */
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .header {
+    /* background: #333;
+    color: white; */
+    padding: 1rem;
+  }
+  
+  .header ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .header li {
+    margin: 0;
+  }
+  
+  .header a {
+    /* color: white; */
+    text-decoration: none;
+  }
+  
+  .main {
+    flex: 1;
+    padding: 1rem;
+  }
+  
+  .footer {
+     background: var(--navbar);
+  }
+  
+  .footerContent {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .footerSection {
+    flex: 1;
+    margin: 1rem;
+  }
+  
+  .footerSection h2 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .footerSection p, .footerSection ul, .footerSection form {
+    margin: 0.5rem 0;
+  }
+  
+  .footerSection ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footerSection li {
+    margin: 0.5rem 0;
+  }
+  
+  .footerSection a {
+    /* color: white; */
+    text-decoration: none;
+  }
+  
+  .socialLinks {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .newsletterForm {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .newsletterForm input {
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .newsletterForm button {
+    padding: 0.5rem;
+    /* background: #444;
+    color: white; */
+    border: none;
+    cursor: pointer;
+  }
+  
+  .footerBottom {
+    margin-top: 2rem;
+  }
+  

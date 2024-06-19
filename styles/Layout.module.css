@@ -1,0 +1,40 @@
+/* components/Layout.module.css */
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .header {
+    /* background: var(--background);
+    color: white; */
+    padding: 1rem;
+  }
+  
+  .header ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .header li {
+    margin: 0;
+  }
+  
+  .header a {
+    /* color: white; */
+    text-decoration: none;
+  }
+  
+  .main {
+    flex: 1;
+    padding: 1rem;
+  }
+  
+  .footer {
+    /* background: #333;
+    color: white; */
+    text-align: center;
+    padding: 1rem;
+  }
+  

@@ -1,0 +1,33 @@
+.container{
+    width: 900px;
+    box-shadow: 2px 8px 16px 0 rgba(70, 70, 70, 0.3);
+    padding: 15px;
+    border-radius: 10px;
+    /* margin: 15px; */
+    margin-bottom: 20px;
+}
+.header{
+    padding: 0;
+    margin: 0;
+}
+.date{
+    font-size: 10px;
+    color: var(--date);
+}
+.details{
+    width: 100ch;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.readmore{
+    text-decoration: none;
+    color:var(--secondary);
+}
+.container:hover{
+    position: relative;
+    top:-5px;
+}
+.readmore:hover{
+
+}
