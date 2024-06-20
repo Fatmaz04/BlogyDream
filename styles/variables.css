@@ -4,14 +4,14 @@
  :root[data-theme='dark'] {
 	--primary-bright:	#ffffff;
 	--primary:		#d9d9d9;
-	--primary-dim:		#666666;
+	--primary-dim:		#7d7d7d;
 	--primary-dark:		#202020;
 	--secondary: 		#ffed7f;
-	--secondary-bright: 	rgb(252, 229, 79);
+	--secondary-bright: 	rgb(255, 221, 0);
 	--background: 		#060708;
 	--navbar: 		#807741;
-    --date:     rgb(146, 146, 146);
-	--navhover:     #7a7a7a;
+    --date:     #dac24d;
+	--navhover:     #686868;
 
 	
 	color-scheme: dark;
