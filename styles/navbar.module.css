@@ -1,35 +1,36 @@
 .NavUl {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    position: sticky;
-    top: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .NavLi {
-    float: left;
-  }
-  
-  .NavLi a {
-    display: block;
-    /* color: rgb(255, 255, 255); */
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  .NavLi a:hover {
-    background-color: #7a7a7a;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.NavLi {
+  float: left;
+}
+
+.NavLi a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.NavLi a:hover {
+    background-color: var(--navhover);
+    color: var(--secondary);
   }
 
-.hide{
+.hide {
   display: none;
 }
-.img{
+
+.wrapper {
   margin-top: 50px;
 }
 
@@ -45,6 +46,24 @@
 }
 
 .navbarScrolled {
-  background-color: var(--navbar); /* Change to your desired background color */
-   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow when scrolled */
-} 
+  background-color: var(--navbar);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+@media (max-width: 768px) {
+  .NavUl {
+    flex-direction: column;
+  }
+
+  .NavLi {
+    margin: 10px 0;
+  }
+
+  .wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 200px;
+  }
+}

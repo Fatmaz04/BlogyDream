@@ -13,7 +13,7 @@ export default function Footer() {
             lifestyle, and more.
           </p>
           <p>
-          &copy; {new Date().getFullYear()} Your Blog Name. All rights reserved.
+          &copy; {new Date().getFullYear()} BlogyDream. All rights reserved.
         </p>
         </div>
         <div className={styles.footerSection}>

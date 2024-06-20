@@ -1,5 +1,5 @@
 .container{
-    width: 900px;
+    width: 80%;
     box-shadow: 2px 8px 16px 0 rgba(70, 70, 70, 0.3);
     padding: 15px;
     border-radius: 10px;
@@ -14,12 +14,7 @@
     font-size: 10px;
     color: var(--date);
 }
-.details{
-    width: 100ch;
-    overflow: hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-}
+
 .readmore{
     text-decoration: none;
     color:var(--secondary);
@@ -29,5 +24,5 @@
     top:-5px;
 }
 .readmore:hover{
-
+    color:var(--secondary-bright);
 }

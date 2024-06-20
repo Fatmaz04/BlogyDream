@@ -7,13 +7,13 @@
 	--primary-dim:		#666666;
 	--primary-dark:		#202020;
 	--secondary: 		#ffed7f;
-	--secondary-bright: 	#ffea5f;
+	--secondary-bright: 	rgb(252, 229, 79);
 	--background: 		#060708;
 	--navbar: 		#807741;
     --date:     rgb(146, 146, 146);
+	--navhover:     #7a7a7a;
 
 	
-	/* Asks browser to behave in dark mode */
 	color-scheme: dark;
 } 
 
@@ -26,8 +26,10 @@
 	--primary-dim:		#121315;
 	--primary-dark:		#efefef;
 	--secondary: 		#BA6655;
-	--secondary-bright:	#ff3636;
+	--secondary-bright:	#ef6144;
 	--background: 		#ededed;
 	--navbar: 		#d2b0aa;
     --date:     rgb(87, 87, 87);
+	--navhover:     rgba(0, 0, 0, 0.1);
+
 }

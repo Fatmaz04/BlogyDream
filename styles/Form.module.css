@@ -33,3 +33,10 @@
 {
     margin: 18px;
 }
+
+@media (max-width: 768px) {
+    .InputField{
+        width: 100%;
+    }
+    
+}

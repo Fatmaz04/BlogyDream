@@ -36,44 +36,51 @@ export default function Navbar() {
       }
     };
 
-    document.addEventListener('scroll', handleScroll);
+    document.addEventListener("scroll", handleScroll);
     return () => {
-      document.removeEventListener('scroll', handleScroll);
+      document.removeEventListener("scroll", handleScroll);
     };
   }, [navbarBackground]);
 
   return (
-    <>
-    <nav className={navbarBackground ? `${styles.navbar} ${styles.navbarScrolled}` : styles.navbar}>
-      <ul className={styles.NavUl}>
-        <li className={styles.NavLi}>
-          <Link href="/">Home</Link>
-        </li>
-        <li className={styles.NavLi}>
-          <Link href="/Create">Create</Link>
-        </li>
-        <li>
-          <ThemeToggle />
-        </li>
-      </ul>
+    <div className={styles.container}>
+      <nav
+        className={
+          navbarBackground
+            ? `${styles.navbar} ${styles.navbarScrolled}`
+            : styles.navbar
+        }
+      >
+        <ul className={styles.NavUl}>
+          <li className={styles.NavLi}>
+            <Link href="/">Home</Link>
+          </li>
+          <li className={styles.NavLi}>
+            <Link href="/Create">Create</Link>
+          </li>
+          <li>
+            <ThemeToggle />
+          </li>
+        </ul>
       </nav>
-      <Image
-        id="lightimg"
-        src={imgPath}
-        width={1550}
-        height={300}
-        alt="Blog Logo"
-        className={theme === "dark" ? styles.hide : styles.img}
-      />
-      <Image
-        id="darkimg"
-        src={imgPathDark}
-        style={{marginTop:"50px"}}
-        width={1550}
-        height={300}
-        alt="Blog Logo"
-        className={theme === "light" ? styles.hide : styles.img}
-      />
-    </>
+      <div className={styles.wrapper}>
+        <Image
+          id="lightimg"
+          src={imgPath}
+          width={1550}
+          height={300}
+          alt="Blog Logo"
+          className={theme === "dark" ? styles.hide : styles.img}
+        />
+        <Image
+          id="darkimg"
+          src={imgPathDark}
+          width={1550}
+          height={300}
+          alt="Blog Logo"
+          className={theme === "light" ? styles.hide : styles.img}
+        />
+      </div>
+    </div>
   );
 }
